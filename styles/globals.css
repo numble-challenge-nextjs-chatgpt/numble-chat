@@ -1,3 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  *,
+  html,
+  body {
+    @apply box-border;
+  }
+
+  body,
+  #__next {
+    @apply w-full h-screen;
+    @apply overflow-y-hidden;
+    @apply flex justify-center items-center;
+    @apply bg-c-black;
+  }
+
+  html {
+    font-family: Pretendard;
+  }
+}

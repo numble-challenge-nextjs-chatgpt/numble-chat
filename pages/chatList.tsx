@@ -1,7 +1,7 @@
+import Template from '@/components/ChatList/Template';
 import GlobalTemplate from '@/components/Common/Global/Template';
-import Template from '@/components/Main/Template';
 
-export default function Home() {
+export default function ChatList() {
   return (
     <GlobalTemplate>
       <Template />
