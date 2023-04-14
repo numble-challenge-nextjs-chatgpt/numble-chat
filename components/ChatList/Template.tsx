@@ -5,11 +5,11 @@ import ModifyModal from './ModifyModal';
 import RoomCreateModal from './RoomCreate';
 
 function Template() {
-  const [modify, setModify] = useState<boolean>(true);
+  const [modify, setModify] = useState<boolean>(false);
   const [create, setCreate] = useState<boolean>(false);
 
   return (
-    <main className="h-full p-7 flex flex-col justify-between relative">
+    <main className="relative flex flex-col justify-between h-full p-7">
       <Header createOpen={setCreate} />
       <ChatList />
       {create && <RoomCreateModal />}
