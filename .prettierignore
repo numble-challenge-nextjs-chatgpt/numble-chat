@@ -1,10 +1,8 @@
-public
 .next
 node_modules
 public
-.eslintrc.js
-.prettierrc.js
+.eslintrc.json
+.prettierrc.json
 tsconfig.json
-src/styles
 .github
 
